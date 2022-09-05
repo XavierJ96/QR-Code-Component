@@ -1,0 +1,80 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+body {
+    background-color: var(--light-gray);
+    height: 100vh;
+}
+
+/* Typography */
+.text_section {
+    text-align: center;
+    margin: 2rem 3rem;
+}
+
+h1{
+    font-family: 'Outfit';
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Outfit';
+    margin-top: 1rem;
+    color: var(--grayish-blue);
+}
+
+/* End of Typography */
+
+/* Setting Card dimensions */
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: var(--white);
+    max-width: 30rem;
+    padding: 1.5rem 0;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem var(--grayish-blue);
+}
+
+.img_container {
+    width: 27rem;
+    margin: 0 auto;
+}
+
+.qr_img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+/* End of Card */
+
+/* Attributions */
+.attribution, a {
+    font-size: 1.5rem;
+    font-family: 'Outfit';
+}
+
+.attribution{
+    position: absolute;
+    bottom: 2rem;
+}
+
