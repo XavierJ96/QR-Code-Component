@@ -53,7 +53,7 @@ p {
     max-width: 30rem;
     padding: 1.5rem 0;
     border-radius: 2rem;
-    box-shadow: 0 0 2rem var(--grayish-blue);
+    box-shadow: 0 0.9375rem 1.875rem -0.6875rem rgb(131 166 210 / 50%);
 }
 
 .img_container {
